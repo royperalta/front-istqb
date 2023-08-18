@@ -1,5 +1,4 @@
-'use client'
-// En Question.js
+"use client"
 import React, { useState } from 'react';
 
 const Question = ({ questionData, handleAnswer }) => {
