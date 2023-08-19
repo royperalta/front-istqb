@@ -10,7 +10,7 @@ const Lista = () => {
 
     useEffect(() => {
         // Realizar la solicitud a la API al cargar la página
-        fetch('http://localhost:5000/api/listar')
+        fetch('https://back-istqb.onrender.com/api/listar')
             .then(response => response.json())
             .then(data => setQuestions(data))
             .catch(error => console.error('Error al obtener datos:', error));

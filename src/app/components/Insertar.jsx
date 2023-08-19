@@ -46,7 +46,7 @@ const Ingresar = () => {
         console.log(data)
 
         try {
-            const response = await fetch('http://localhost:5000/api/create', {
+            const response = await fetch('https://back-istqb.onrender.com/api/create', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
